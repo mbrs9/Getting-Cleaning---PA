@@ -5,7 +5,7 @@ This Code Book describes the variables from the tidydata.txt dataset with  180 o
 
 ## Procedure
 1. The original datasets are loaded:
-  .* activity_labels.txt (stored internally as "activity_labels")
+  * activity_labels.txt (stored internally as "activity_labels")
   * features.txt (stored internally as "features")
   * X_train.txt (stored internally as "x_train")
   * y_train.txt (stored internally as "y_train")
@@ -13,6 +13,7 @@ This Code Book describes the variables from the tidydata.txt dataset with  180 o
   * X_test.txt (stored internally as "x_test")
   * y_test.txt (stored internally as "y_test")
   * subject_test.txt (stored internally as "subject_test")
+  
 NOTE: 
 * For both y_train & y_test the column name is changed to "label". 
 * For both subject_test & subject_train the column name is changed to "subject"
