@@ -37,7 +37,7 @@ This Code Book describes the variables from the tidydata.txt dataset with  180 o
 7. A second tidy data set is created from completeData stored internally as "compAVG" and contains the average of each variable for each activity and each subject. It is stored externally as "tidydata.txt".
 
 ## tidydata.txt Full Variable Names Directory:
-[1] "label"                      
+[1] "activity"                      
  [2] "subject"                    
  [3] "tBodyAcc.mean...X"          
  [4] "tBodyAcc.mean...Y"          
