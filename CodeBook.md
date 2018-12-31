@@ -14,9 +14,9 @@ This Code Book describes the variables from the tidydata.txt dataset with  180 o
   * y_test.txt (stored internally as "y_test")
   * subject_test.txt (stored internally as "subject_test")
   
-NOTE: 
-* For both y_train & y_test the column name is changed to "label". 
-* For both subject_test & subject_train the column name is changed to "subject"
+  NOTE: 
+  * For both y_train & y_test the column name is changed to "label". 
+  * For both subject_test & subject_train the column name is changed to "subject"
 
 2. A trainData data set is created by merging: subject_test, y_test and x_test
 
@@ -27,12 +27,12 @@ NOTE:
 5. The measurements on the mean and standard deviation for each measurement are extracted from completeData
 
 6. The "label" variable in completeData is redefined as a factor and its names are changed to their corresponding activity labels:
-..* WALKING
-..* WALKING_UPSTAIRS
-..* WALKING_DOWNSTAIRS
-..* SITTING
-..* STANDING
-..* LAYING
+ * WALKING
+ * WALKING_UPSTAIRS
+ * WALKING_DOWNSTAIRS
+ * SITTING
+ * STANDING
+ * LAYING
 
 7. A second tidy data set is created from completeData stored internally as "compAVG" and contains the average of each variable for each activity and each subject. It is stored externally as "tidydata.txt".
 
